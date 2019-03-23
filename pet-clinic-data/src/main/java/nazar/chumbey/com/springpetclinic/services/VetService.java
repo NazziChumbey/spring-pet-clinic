@@ -2,13 +2,6 @@ package nazar.chumbey.com.springpetclinic.services;
 
 import nazar.chumbey.com.springpetclinic.model.Vet;
 
-import java.util.Set;
+public interface VetService extends GrudService<Vet, Long>{
 
-public interface VetService {
-
-    Vet findById(Long id);
-
-    Vet save(Vet vet);
-
-    Set<Vet> findAll();
 }
